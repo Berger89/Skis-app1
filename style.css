@@ -1,0 +1,28 @@
+/* Vlastní styly a doplňková pravidla pro ŠKIS – TJ Kobylisy */
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Plynulé přechody pro karty a formulářové prvky */
+.nav-tab {
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Jemný scrollbar pro horizontální tabulky na mobilních zařízeních */
+.overflow-x-auto::-webkit-scrollbar {
+    height: 6px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-track {
+    background: #f9fafb;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 3px;
+}
+
+.overflow-x-auto::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
